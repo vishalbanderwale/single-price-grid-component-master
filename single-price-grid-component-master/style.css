@@ -103,3 +103,14 @@ article {
 p {
   color: hsl(179, 62%, 43%);
 }
+
+/* media query for phone */
+@media only screen and (max-width: 480px) {
+  article {
+    display: grid;
+    grid-template-areas:
+      "header"
+      "left"
+      "right";
+  }
+}
